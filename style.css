@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+p{
+  color: rgb(85, 85, 85);
+}
+section {
+  margin: 0 5rem;
+  padding-top: 10px;
+  height: 350px;
+}
+ 
+  
+  /* PROJECTS SECTION */
+
+  #projects {
+    text-align: center; /* Centrer le texte globalement */
+    margin-top: -200px;
+}
+.title{
+  text-align: center;
+}
+
+.about-containers {
+    display: flex; /* Utilisation de Flexbox pour aligner les éléments */
+    justify-content: center; /* Aligner les projets horizontalement */
+    gap: 20px; /* Espacement entre les éléments */
+    flex-wrap: wrap; /* Permet l'affichage sur plusieurs lignes si nécessaire */
+}
+
+.details-container {
+    width: 200px; /* Réduire la taille des conteneurs */
+    height: auto; /* Hauteur dynamique selon le contenu */
+    border: 1px solid #ddd; /* Optionnel : ajout de bordures pour le style */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 10px; /* Espacement interne */
+    background-color: #f9f9f9; /* Optionnel : couleur de fond */
+}
+
+.project-img {
+    width: 100%; /* Réduction et adaptation des images à la taille du conteneur */
+    height: auto; /* Préserver les proportions de l'image */
+    border-radius: 5px; /* Coins arrondis pour les images */
+}
+
+.project-title {
+    font-size: 1.2rem; /* Ajustement de la taille des titres */
+    margin-top: 10px; /* Espacement entre l'image et le titre */
+    color: #333; /* Couleur du texte */
+}
+header{
+  background-color: darkblue
+}
+.logo {
+  color: white; /* Définit la couleur du texte en blanc */
+  font-size: 2rem; /* Optionnel : ajustez la taille du texte */
+  font-weight: bold; /* Optionnel : rendez le texte gras */
+  
+}
+
+.contact-section h2{
+  text-align: center;
+  color: #333;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.group-form{
+  display: flex;
+  flex-direction: column;
+}
+label{
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+input, textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px, solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #fff;
+  box-shadow: inset 0, 1px, 3px rgba(0, 0, 0, 0.1);
+}
+textarea{
+  resize: none;
+  height: 120px;
+}
+input:focus, textarea:focus{
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.send-button{
+  background-color: #007BFF;
+  color:#fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px, 25px;
+  font-size: 2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  float:right;
+  justify-content: space-between;
+}
+.send-button:hover{
+  background-color: #0056b3;
+}
+h2{
+  color: #007BFF;
+}
+button{
+  background-color: #007BFF;
+  border-radius: 5px;
+}
+.profile-asset{
+  width: 200px;
+  border-radius: 100px;
+}
+header{
+  position: absolutes;
+  margin: 10px;
+  padding: 10px;
+  left: 2%;
+  right: 2%;
+  height: 60px;
+}
+.container .left-text{
+  color: white;
+}
+.container .right-text{
+  color: white;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+#profile{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 30vh;
+}
+.section__text{
+  text-align: center;
+  margin-top: 3rem;
+}
+.section__text p {
+  font-weight: 600;
+}
+.section__text__p2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  font-weight: 600;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+h1{
+  text-align: center;
+  height: 3vh;
+}
